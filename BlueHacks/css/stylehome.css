@@ -1,0 +1,433 @@
+/* basic */
+body{
+	width: 100%;
+	margin: 0;
+	height: 100%;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+/* header */
+.header{
+	background-color: #382D66;
+	width: 100%;
+	top: 0;
+	position: fixed;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	font-family: "Work sans", sans-serif;
+}
+
+/* 
+li{
+	list-style: none;
+	float: left;
+	margin-left: 55px;
+	padding-top: 15px;
+	font-size: 17px;
+
+}
+*/
+.appName:hover{
+	color: white;
+}
+
+h1{
+	margin-left: 10px;
+	font-family: sans-serif;
+	letter-spacing: -2px;
+}
+.nav{
+	float: right;
+	margin-right: -200px;
+
+	
+}
+/* Categories Drop Downs */
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-family: "Sans work", sans-serif;
+}
+ul li {
+	list-style-type: none;
+	float:left;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+	border: 2px solid black;
+
+}
+ul li a:hover{
+	color: white;
+}
+
+ul li ul li{
+	color: black;
+	background-color: #9A85b4;
+	padding: 10px;
+	margin-left: -50px;
+}
+
+
+/* footer */
+footer{
+	background-color: #382D66;
+	color: white;
+	position: absolute;
+	width: 100%;
+	font-family: sans-serif;
+	margin: 0 auto;
+
+}
+.footerInc{
+	float:left;
+	padding: 5px 50px;
+}
+.allrights{
+	float: right;
+	padding: 5px 50px;
+}
+
+/* Drop Down */
+.underNav{ /* ul class */
+	list-style-type: none;
+	font-family: "Work Sans", sans-serif;
+	background-color: transparent;
+}
+.underNav:after{
+	content: '';
+	clear: both;
+	display: block;
+	margin: 0;
+	padding: 0;
+
+}
+
+.filter{
+	font-size: 25px;
+	text-decoration: none;
+}
+.filter:hover {
+	color: white;
+
+}
+.dropdown:hover .dropdowncontent li{
+	margin: 0px;
+	width: 100%;
+
+}
+.subMenu {
+	display: none;
+	position: relative;
+}
+.dropdown{
+	position: relative;
+	text-align: center;	
+	margin-top: -27px;
+	margin-left: 100px;
+}
+
+
+.innercontent:hover {
+	margin: 0;
+	padding: 0;
+	background-color: #DA4855; 
+}
+
+.dropdowncontent{
+	display: none;
+	background-color: white	;
+	width: 330px;
+	height: auto;
+	margin-left: -140px;
+	border: 1px solid black;
+	border-top-color: transparent;
+}
+
+.dropdown:hover .dropdowncontent{
+	display: block;
+}
+.outerlist{
+	margin: 0;
+	padding: 0;
+
+}
+.innercontent{
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+#outerlist1:hover .subMenu{
+	display: block;
+	padding-left: 60px;
+}
+.filterDIV{
+	width:50%;
+	margin-left: 25.5%;
+	background-color: #9A85b4;
+}
+.sortDIV{
+	width: 50%;
+	margin-right: 25.7%;
+	background-color: #382D66;
+}
+
+/* ------------- */
+.logo{
+	float: left;
+	display: flex;
+	margin-left: -200px;
+}
+
+
+.Search{
+	margin-top: 125px;
+
+
+}
+input{
+	padding: 10px 580px 10px 10px;
+	border-radius: 7px;
+}
+
+.sidebyside{
+	display: flex;
+
+	font-family: "Work sans", sans-serif;
+	line-height: 1px;
+	height: 35px;
+}
+
+
+.underSearch1{
+	text-align: center;
+	margin-top: 18px;
+	letter-spacing: 1px;
+	font-size: 25px;
+}
+.popular{
+	font-family: "Work Sans", sans-serif;
+	font-size: 35px;
+	margin-left: 70px;
+	font-weight: normal;
+}
+/* ------------------Nestle -----------------*/
+.mainCondense{
+	display: flex;
+	font-family: "Work Sans", sans-serif;
+
+}
+.leftContent{
+	width: 50%;
+margin-top: 25px;
+padding-left: 50px;
+	
+}
+.leftNestle{
+	display: flex;
+	margin-left: 20px;
+}
+.rightContent{
+	width: 50%;
+	margin-top: 25px;
+	padding: 0 50px 150px 50px;
+}
+.Nestle{
+	border: 2px solid black;
+	border-radius: 7px;
+	padding: 0 20px 10px 20px;
+	margin-top: 20px;
+}
+.aboutNestle{
+	font-family: sans-serif;
+	font-size: 30px;
+	word-spacing: 2px;
+	font-weight: 520;
+}
+.nestleAddress{
+	font-family: sans-serif;
+	font-size: 15px;
+	margin-top: -18px;
+}
+.availability{
+	color: #00C91F;
+	margin-left: 10px;
+}
+.availability:hover{
+	color: #00C91F;
+}
+.aboutDIV{
+	width: 50%;
+}
+.NestleLogo{
+	width: 50%;
+}
+h4{
+	margin-top: -15px;
+	margin-left: 40px;
+}
+
+/* -----------------footer ---------------*/
+footer{
+	background-color: #382D66;
+	color: white;
+	position: absolute;
+	width: 100%;
+	font-family: sans-serif;
+	margin: 0 auto;
+
+}
+.footerInc{
+	float:left;
+	padding: 5px 10px;
+}
+.allrights{
+	float: right;
+	padding: 5px 10px;
+}
+
+
+/* ---------------Pop Up Selling Box ---------------*/
+.xHL{
+	color: black;
+	float: right;
+	top: 0;
+}
+.sellerPopUp{
+	text-decoration: none;
+	color: black;
+}
+.sellerPopUp:hover{
+	color: black;
+}
+#wrapper{
+	width: 800px;
+	margin: 70px auto;
+	text-align: left;
+}
+#content{
+	background-color: #FFF;
+	padding: 20px;
+	border-radius: 5px;
+	color: black;
+	height: 800px;
+}
+.signPopUp{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+.product{
+	font-family: "Work sans", sans-serif;
+	font-size: 25px;
+}
+#aboutNestle{
+	font-family: "Work sans", sans-serif;
+	font-size: 30px;
+	word-spacing: 2px;
+	font-weight: 520;
+}
+.shittytext{
+	margin-left: 15px;
+}
+#presyo{
+	font-size: 40px;
+	font-family: "Work sans", sans-serif;
+	color: #382D66;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+.chatseller{
+	border-radius: 20px;
+	padding: 5px 40px;
+	border: 2px solid #DA4855;
+	background-color: white;
+	margin-left: 50px;
+	margin-top: -20px;
+
+}
+.chatsell{
+	color: #DA4855;
+	font-size: 20px;
+	font-weight: normal bold;
+}
+#Nestle{
+	display: flex;
+}
+#NestleLogo{
+	margin-bottom: 10px;
+}
+.BuyBtn{
+	padding: 50px 10px 5px 10px;
+}
+.dropBTN{
+	padding: 10px 20px;
+	margin-left: 60px;
+}
+.buybuy{
+	border-radius: 25px;
+	background-color: #DA4855;
+	margin-left: 40px;
+	margin-top: 20px;
+	border-color: transparent;
+	padding: 5px 50px;
+
+}
+.boyboy{
+	color: white;
+	font-size: 35px;
+	font-family: "Work Sans", sans-serif;
+}
+
+.seller{
+	font-family: "Work sans", sans-serif;
+	font-size: 25px;
+}
+.Rustan{
+	font-family: "Work sans", sans-serif;
+	font-size: 19px;
+	margin-left: 10px;
+	margin-top: -10px;
+}
+.branch{
+	font-family: "Work sans", sans-serif;
+	font-size: 15px;
+	margin-left: 15px;
+}
+.reviews{
+	font-family: "Work sans", sans-serif;
+	font-size: 25px;
+
+}
+.names{
+	font-family: "Work sans", sans-serif;
+	font-size: 16px;
+	margin-left: 15px;
+}
+.chuchu{
+	font-family: "Work sans", sans-serif;
+	font-size: 12px;
+	margin-left: 20px;
+}

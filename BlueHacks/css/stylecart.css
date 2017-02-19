@@ -1,0 +1,219 @@
+
+
+body{
+	width: 100%;
+	margin: 0;
+	height: 100%;
+}
+
+
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header{
+	background-color: #382D66;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	font-family: "Work Sans", sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+/*
+li{
+	list-style: none;
+	float: left;
+	margin-left: 55px;
+	padding-top: 15px;
+	font-size: 17px;
+
+}
+*/
+
+.logo{
+	float: left;
+	display: flex;
+	margin-left: -200px;
+}
+
+h1{
+	margin-left: 10px;
+	font-family: sans-serif;
+	letter-spacing: -2px;
+}
+
+.nav{
+	float: right;
+	margin-right: -200px;
+
+	
+}
+
+h2{
+	font-size: 16px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+	margin-left: 8px;
+	margin-top: -18px;
+}
+/* footer */
+footer{
+	background-color: #382D66;
+	color: white;
+	position: absolute;
+	width: 100%;
+	font-family: sans-serif;
+	margin: 0 auto;
+
+}
+.footerInc{
+	float:left;
+	padding: 5px 10px;
+}
+.allrights{
+	float: right;
+	padding: 5px 10px;
+}
+
+
+/* Categories Drop Downs */
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-family: "Sans work", sans-serif;
+}
+ul li {
+	list-style-type: none;
+	float:left;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+	border: 2px solid black;
+
+}
+ul li a:hover{
+	color: white;
+}
+
+ul li ul li{
+	color: black;
+	background-color: #9A85b4;
+	padding: 10px;
+	margin-left: -50px;
+}
+
+/* Nestle part */
+.content{
+	display: flex;
+	padding: 2%;
+	margin: auto;
+}
+
+.leftContent{
+	width: 50%;
+margin-top: 100px;
+	
+}
+.leftNestle{
+	display: flex;
+}
+.rightContent{
+	width: 50%;
+	margin-top: 100px;
+	padding: 0 50px 200px 50px;
+}
+.Nestle{
+	border: 2px solid black;
+	border-radius: 7px;
+	padding: 0 20px 10px 20px;
+}
+.summary{
+	display: flex;
+	
+}
+.detailsDIV{
+	width: 50%;	
+	margin-left: 50px;
+}
+.priceDIV{
+	text-align: right;
+	width: 50%;
+	margin-right: 50px;	
+	
+}
+.aboutNestle{
+	font-family: sans-serif;
+	font-size: 30px;
+	word-spacing: 2px;
+	font-weight: 520;
+}
+.nestleAddress{
+	font-family: sans-serif;
+	font-size: 15px;
+	margin-top: -18px;
+}
+.availability{
+	color: #00C91F;
+	margin-left: 10px;
+}
+.aboutDIV{
+	width: 50%;
+}
+.NestleLogo{
+	width: 50%;
+}
+h4{
+	margin-top: -15px;
+	margin-left: 40px;
+}
+.cartSummary{
+	padding: 20px 10px 10px 20px;
+	border: 1px solid transparent;
+	background-color: #EFF0F0;
+	border-radius: 7px;
+}
+.yourCart{
+	font-family: "Work sans", sans-serif;
+	font-weight: normal;
+	word-spacing: 5px;
+}
+.checkout{
+	font-family: "Work sans", sans-serif;
+	font-weight: normal;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+}
+input[type="inputarea"]{
+	margin: 8px 5px 0px 5px ;
+
+}
+
+.ConfirmBTN{
+	padding: 10px;
+	border-radius: 8px;
+	background-color: #DA4855;
+}
+.confirmHL{
+	color: #ffffff;
+}
+h3{
+	font-family: "Work sans", sans-serif;
+}

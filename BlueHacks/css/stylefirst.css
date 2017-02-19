@@ -1,0 +1,187 @@
+body{
+	width: 100%
+	margin: auto;
+	background-image: url(Background.png);
+	color: #FFFFFF;
+
+
+}
+.mainContainer{
+	top: 0;
+	padding: 0;
+	margin: 0 auto;
+
+}
+.innerContainer{
+	top: 40%;
+	left: 43%;
+	text-align: center;
+	position: absolute;
+}
+
+h1{
+	font-family: "Work Sans", sans-serif;
+	letter-spacing: 1px;
+	font-size: 45px;
+}
+h5{
+	margin-top: -25px;	
+	font-family: "Work Sans", sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+
+}
+
+.logIn{
+	border-radius: 15px;
+	background-color: #DA4855;
+	color: white;
+	border-color: transparent;
+	padding: 5px 20px 5px 20px;
+	margin-top: 15px;
+	font-size: 20px;
+	
+}
+input{
+	margin-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+h4{
+	font-family: "Work Sans", sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	color: white;
+}
+a{
+	text-decoration: none;
+
+}
+.xHL{
+	color: black;
+}
+.loginHL{
+	color: #ffffff;
+}
+.loginHL:underline{
+	color: #ffffff;
+	text-decoration: none;
+}
+.signHL{
+	color: #DA4855;
+}
+.signHL:hover{
+	text-decoration: underline;
+	color: #DA4855;
+}
+.uploadHL{
+	color: #DA4855;
+}
+
+
+input[type="text"] {
+	border-bottom: 1px solid grey;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	padding-right:20%;
+	padding-left: 0;
+	margin-top: 20px;
+}
+input[type="text1"] {
+	border-bottom: transparent;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	padding-right:20%;
+	padding-left: 0;
+	margin-top: 20px;
+}
+input[type="text2"] {
+	border-bottom: 1px solid grey;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	padding-right:40%;
+	padding-left: 0;
+	margin-top: 20px;
+}
+
+.SignUPCol{
+	padding: 10px 20px;
+	display: flex;
+}
+.signPopUp{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+}
+
+#wrapper{
+	width: 800px;
+	margin: 70px auto;
+	text-align: left;
+}
+#content{
+	background-color: #FFF;
+	padding: 20px;
+	border-radius: 5px;
+	color: black;
+	height: 500px;
+}
+
+.signTitle{
+	color: black;
+	font-weight: normal;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	margin-left: 20px;
+}
+.button{
+	float:right;
+	right:0;
+	top:0;
+	margin-top: -10px;
+	color: black;
+	font-family: sans-serif;
+}
+.uploadPhoto{
+	margin-top: 10px;
+	border: 1px solid black;
+	padding: 50px;
+}
+.uploadBTN{
+	position: relative;
+	border: 1px solid #DA4855;
+	border-radius: 15px;
+	padding: 10px 5px 10px 5px;
+	color: #DA4855;
+	background-color: white;
+ }
+.leftsignup{
+	margin-left: 20px;
+}
+.rightsignup{
+	margin-right: 50px;
+}
+
+/*  Register BTN */
+.register{
+	border-radius: 15px;
+	background-color: #DA4855;
+	color: white;
+	border-color: transparent;
+	padding: 5px 20px 5px 20px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+.registerHL{
+	color: white	;
+}

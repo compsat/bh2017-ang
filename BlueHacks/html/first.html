@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FoodBridge</title>
+	<link rel="stylesheet" type="text/css" href="../css/stylefirst.css">
+
+</head>
+<body>
+	<div class="mainContainer">
+		<div class="innerContainer">
+			<h1>FoodBridge</h1>
+			<h5>We find waste.</h5>
+
+			<input type="Username" placeholder="Username" required>
+			<br>
+			<input type="Password" placeholder="Password" required>
+			<br>
+			<br>
+			<button class="logIn"><a href="home.html" class="loginHL">Log In</button>
+			<h4> Don't have an account?<a href="javascript:void(0)" class="signHL" onclick="toggle_visibility('signPopUp');"> Sign Up</a> </h4></span>
+
+		</div>
+	</div>
+
+	<div id="signPopUp" class="signPopUp">
+		<div id="wrapper">
+			<div id="content">
+					<p class="button"><a href="javascript:void(0)" class="xHL" onclick="toggle_visibility('signPopUp');" >X</a></p>
+					<h1 class="signTitle">Sign up for an account</h1>
+		
+				<div class = "SignUPCol">
+					<div class="leftsignup">
+						<input type="text" placeholder="Name" required>
+						<input type="text" placeholder="Email Address" required>	
+						<input type="text" placeholder="Password" required>
+						<input type="text" placeholder="Home Address" required>
+						<br>
+						<br>
+						<button class="register"><a href="home.html" class="registerHL">Register</button>
+					</div>
+					
+					<div class="rightsignup">
+						<input type="text" placeholder="Company Name" required>
+						<input type="text2" placeholder="Company Description" required>
+						<input type="text1" placeholder="Business Permit" required>
+
+						<div class="uploadPhoto">
+							<center>
+							<button class="uploadBTN"><a href="#" class="uploadHL">Upload a photo</a></button>
+							</center> 
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+	<script src="../js/main.js" type="text/javascript">
+		
+	</script> 
+</html>
